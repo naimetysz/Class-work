@@ -22,4 +22,9 @@
 // align-items;konteynirin belli yuksekligi var bu buyukkluk icinde flex-start ile yukari dogru/flex-end ile asagi dogru/center ortaya dogru/stech yukaridan asagiya dogru siralaar
 // siralar.ancak sterc kullanmak icin elemnetin sabit yukseligi olmamali icerdeki itemin sabit yukseligi olmaz /baseline elemneton yazilarina gore hizalar
 // flexbox;align -content cok satirli elemanlari siralamak icin kullanilir align-content hepsini tek bir paket gibi dusunup hepsini hizalar
+// align -content tek row da olsa cok rowda olsa tek gibi yapar 
+/// normalde itemlerin arasini marginle actik tariycilar farkli oldugundan webkit kullanilabilir browserlar arasi uyumuluk
+// 5.flexbox gap marginle arasini actik argin demek elemnetin disi ile ilgili bosluk demek gap de kucuk bir nuans var item arasi sutun ve satirlarin 
+// boslugunu belirliyor dis hacim vermek istemiyorsak gap verebiliriz ama bunu tasiyiciya vericez
+// yatay ve dikey bosluklari belirlemek icin  kullanilir ilk yazilan yatay satirlar 2.ise dikey sutunlar arasindaki bosluktur
 //
