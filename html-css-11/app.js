@@ -36,4 +36,10 @@
 // flex-grow ozellihini digerlerine gore buyultebiliriz
 //flexbox(flex-shrink)digerlerine gore kuculsun istiyorsak kullaniyoruz 
 //flex-basis satirdaki maximum orani nasil paylastiracgimiz gosterir
-// auotu olarak kalirsa var olani verir 0 yaparsak herbir elemanin buyuklugu icerigi kadar olur 
+// auotu olarak kalirsa var olani verir 0 yaparsak herbir elemanin buyuklugu icerigi kadar olur grow ozelligi icin flex kullanilmali aksi durumda conten 
+
+
+
+
+///// FLEX-GRID//
+// hem responsive olsun bu sistemde ne yapiyor ekran boyutu

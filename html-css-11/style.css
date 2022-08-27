@@ -20,14 +20,17 @@
 
 }
 .container1{
-    background-color: bisque;
+    background-color: rgba(242, 213, 178, 0.763);
     height: 20rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap: 20px 10px;
     padding: 0.5rem;
     justify-content: center;
     overflow: auto;
+
+    align-content: flex-end;
+    align-items: flex-end;
 
 }
 .container1 div{
@@ -35,4 +38,19 @@
     width: 5rem;
     background-color: rgb(219, 137, 22);
 }
+
+.container3{
+
+    background-color: pink;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+.container div{
+    background-color: blueviolet;
+}
+
 
