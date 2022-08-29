@@ -22,19 +22,25 @@
 // islem degiskenin herbir farkli durumu icin islemler yaptirdik
             
 /// Odev 2 haftalik calisma programini swich case yapisi ile olusturma
-const gun = prompt("lutfen bir gun giriniz:").toLowerCase
-switch (gun) {
-    case "pazartesi":
-    case "sali":
-    case "sali":
-    case "carsamba":
-    case "persembe":
-       console.log("inclass");
-       break;
-     case "cuma":
-         console.log("teamwork");
-         break;
-     default:
-         console.log("yanlis gun girdiniz");              
+// const gun = prompt("lutfen bir gun giriniz:").toLowerCase ();
+// switch (gun) {
+//     case "pazartesi":
+//     case "sali":
+//     case "sali":
+//     case "carsamba":
+//     case "persembe":
+//        console.log("inclass");
+//        break;
+//      case "cuma":
+//          console.log("teamwork");
+//          break;
+//      default:
+//          console.log("yanlis gun girdiniz");              
 
-}
+// }
+// ODEV :Maasi asgari ucretten az olanlara % 50 fazla olankara
+// %10 zam yapan program
+const maas = Number(prompt("Maasinizi giriniz"));
+const asgariUcret = 5500;
+const zamliMaas = maas >= asgariUcret ? maas * 1.1 : maas * 1.5;
+console.log("NORMAL MAAS:", maas, "ZAMLI MAAS:", Math.trunc(zamliMaas));
