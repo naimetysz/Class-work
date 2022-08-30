@@ -40,7 +40,15 @@
 // }
 // ODEV :Maasi asgari ucretten az olanlara % 50 fazla olankara
 // %10 zam yapan program
-const maas = Number(prompt("Maasinizi giriniz"));
-const asgariUcret = 5500;
-const zamliMaas = maas >= asgariUcret ? maas * 1.1 : maas * 1.5;
-console.log("NORMAL MAAS:", maas, "ZAMLI MAAS:", Math.trunc(zamliMaas));
+// const maas = Number(prompt("Maasinizi giriniz"));
+// const asgariUcret = 5500;
+// const zamliMaas = maas >= asgariUcret ? maas * 1.1 : maas * 1.5;
+// console.log("NORMAL MAAS:", maas, "ZAMLI MAAS:", Math.trunc(zamliMaas));
+//!ODEV4: Kredi Risk Programı
+//? Console’dan kişinin gelir ve gider miktarını alan
+//? eğer kişinin geliri giderinden en az asgari ücret kadar fazla ise Kredi Verilebilir 🤑
+//? değilse Kredi Verilemez 🥺
+//? şeklinde çıktı veren kodu Ternary deyimi kullanarak yazınız.
+let gider = Number(prompt("lutfen giderinizi yazin"));
+let gelir = Number(prompt("gelirinizi yazin"));
+const kredi = gelir - gider >= 5000 ?"kredi alabilir" : "kredi alamaz ";
