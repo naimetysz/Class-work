@@ -38,7 +38,7 @@
     width: 5rem;
     background-color: rgb(219, 137, 22);
 }
-
+ /* flex-grow (width) */
 .container3{
 
     background-color: pink;
@@ -46,10 +46,11 @@
     flex-wrap: nowrap;
     justify-content: center;
     gap: 1rem;
+    padding: 0.5rem;
 
 
 }
-.container div{
+.container3 div{
     background-color: blueviolet;
 }
 
