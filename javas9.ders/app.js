@@ -238,3 +238,16 @@ const array1 = [1, 2, 3, 4];
 
 // const foundIndex = yasArray.findIndex((yas) => yas >= 30);
 // console.log(foundIndex);
+
+
+
+let i = 0;
+let mult = 5;
+console.log(i);
+while (i<3);{
+    let mult =mult*i
+    i++;
+}
+console.log(mult)
+
+
