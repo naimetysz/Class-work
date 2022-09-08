@@ -147,7 +147,7 @@
   //*************************
   
   //***********************************************
-  //! IF-ELSE
+  //! IF-ELSE /// daha congire edilebilir bu yapi  
   //************************************************
   
   footer {
@@ -166,9 +166,9 @@
     .social-icons {
       display: flex;
       height: 10rem;
-      $textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
+      $textColor: #990000, #55004e, #0fa8a1, #121456, #64c217; //  dizi olusturdum
   
-      @for $i from 1 through 5 {
+      @for $i from 1 through 5 { //to yaparsan 5 dahil olmaz
         .social#{$i} {
           width: 20%;
           background-color: lighten(rgba(27, 130, 219, 0.89), $i * 5);
