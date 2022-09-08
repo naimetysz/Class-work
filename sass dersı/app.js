@@ -22,5 +22,5 @@
 //5.extend/intehrihance; mixinde parametre verip style olusturuyorz burada style olusturup baska yerde kullanmak istiyoruz 
 // istersek extend ettigimiz styla degisiklik yapabiliyoruz 
 // 6.operator;hazir fonksyonlar da var dongu if else yapilari vs var 
-//  
+// sass i kullanmak icin node js onun uzerine biz sass i ekledik yada derleyici eklentisi kullanabilirzi nodejs bir enviroment 
 
