@@ -10,4 +10,16 @@ $nabBgColor:blue;
 $bgColor:pink;
 $bannerBgColor:hotpink;
 
+/////////////////
+header{
+    background-color: $nabBgColor;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 80px;
+    }
+    a{ color:$fontColor;
 
+
+    }
+}
