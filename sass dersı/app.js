@@ -24,4 +24,4 @@
 // 6.operator;hazir fonksyonlar da var dongu if else yapilari vs var 
 // sass i kullanmak icin node js onun uzerine biz sass i ekledik yada derleyici eklentisi kullanabilirzi nodejs bir enviroment 
 // sass da klosor yapisi kullanmak daha efektiflik saglar
-//
+//import bize bagimsiz alt isim kullandirmiyor bu yuzden kullanisli degil
