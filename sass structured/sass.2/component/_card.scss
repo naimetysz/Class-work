@@ -1,0 +1,11 @@
+//////// CARD /////////////
+// burada bir mixin yapisi gorucez bunlarin standart ozellileri var ve bunlar ortak bu kutulari olusturacak bir mixin yazarsak kullanabiliriz temel styli fonksiyon olarak yazabiliriz
+// parametre( olarak verilen degerlere fonksiyon olusturyoruz degismesi gerekenler parametre digerleri sabit
+@mixin myBox($bigColor, $fontColor,){
+    background-color: $bigColor;
+    color: $fontColor;
+    width: 25%;
+    height: 15rem;
+    border: $myBorder;
+    border-radius: 5px;
+}
