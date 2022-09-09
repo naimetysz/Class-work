@@ -146,7 +146,23 @@ header{
         border-color: red;
     }
 }
+///// foooterrrr///
+/// sabit oranda artan azalan birseyler varsa for dongusu kullanilabilir classlari tektek yazmiycazda 1 tane for dongusu yazcaz
+// 5 clasi dongu ile olusturabilirmiyiz to yaparsak 5 dahil olmuyor through yaparsak 5 dahil oluyor dizi de tanimlanabilir
+$textColor:red,brown,green,darkblue,lightgreen // dizi tanimladim 
 
-
-
-
+footer{
+    .social-icon{
+        display: flex;
+        height: 10 rem;
+        @for $i from 1 to 6 {
+            .social#{$i}{
+                width: 20%;
+                background-color: lighten($color: red, $i*5);
+                font-size: $i*1rem;
+                color: nth($textColor , $i);// text color dizisinden tek tek atama yapar 
+            }
+            
+        }
+    }
+}

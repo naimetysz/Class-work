@@ -1,120 +1,17 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* Error: expected ";".
+ *     ,
+ * 154 | footer{
+ *     |       ^
+ *     '
+ *   style.scss 154:7  root stylesheet */
 
-body {
-  background-color: pink;
-  font-size: 1.2rem;
-  color: white;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a     \2577 \a 154 \2502  footer{\a     \2502        ^\a     \2575 \a   style.scss 154:7  root stylesheet';
 }
-
-header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #30a7c3;
-  padding: 1rem;
-}
-header img {
-  width: 80px;
-  border: 2px solid brown;
-  border-radius: 7px;
-}
-header ul {
-  list-style-type: none;
-}
-header ul li {
-  padding: 0.5rem;
-  display: inline-block;
-}
-header ul li:hover {
-  text-decoration: underline;
-}
-header a {
-  color: white;
-  text-decoration: none;
-}
-
-.banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: hotpink;
-  padding: 1rem;
-  line-height: 2rem;
-}
-.banner aside button {
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: none;
-  background-color: #30a7c3;
-  margin-top: 0.6rem;
-  margin-right: 0.5rem;
-}
-.banner aside button:hover {
-  background-color: pink;
-  cursor: pointer;
-}
-.banner aside img {
-  width: 30%;
-  min-width: 250px;
-  max-width: 400px;
-}
-
-.card {
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.7rem;
-}
-.card .card1 {
-  background-color: green;
-  color: white;
-  width: 25%;
-  height: 15rem;
-  border: 2px solid brown;
-  border-radius: 5px;
-}
-.card .card2 {
-  background-color: brown;
-  color: white;
-  width: 25%;
-  height: 15rem;
-  border: 2px solid brown;
-  border-radius: 5px;
-}
-.card .card3 {
-  background-color: yellow;
-  color: black;
-  width: 25%;
-  height: 15rem;
-  border: 2px solid brown;
-  border-radius: 5px;
-}
-.card .card4 {
-  background-color: lightblue;
-  color: black;
-  width: 25%;
-  height: 15rem;
-  border: 2px solid brown;
-  border-radius: 5px;
-}
-
-.article {
-  display: flex;
-  padding: 1rem;
-  gap: 1rem;
-}
-.article .article1, .article .article2 {
-  background-color: grey;
-  width: 50%;
-  border: 2px solid brown;
-  height: 10rem;
-}
-.article .article2 {
-  background-color: hotpink;
-  border-color: red;
-}
-
-/*# sourceMappingURL=style.css.map */
