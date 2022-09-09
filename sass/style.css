@@ -1,9 +1,9 @@
 /* Error: expected ";".
  *     ,
- * 154 | footer{
- *     |       ^
+ * 163 | $dark:2;
+ *     |      ^
  *     '
- *   style.scss 154:7  root stylesheet */
+ *   style.scss 163:6  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a     \2577 \a 154 \2502  footer{\a     \2502        ^\a     \2575 \a   style.scss 154:7  root stylesheet';
+  content: 'Error: expected ";".\a     \2577 \a 163 \2502  $dark:2;\a     \2502       ^\a     \2575 \a   style.scss 163:6  root stylesheet';
 }
