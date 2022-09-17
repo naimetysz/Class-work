@@ -29,4 +29,65 @@
 // clg(`${r},${h}=> hacmi: ${r,h}`); 
 // mesela bu islemi virgunlden sonra iki basamak olarak almak isteseydik tofixed kullanilabilir hacimHesapla cagrildiginda bir deger doner burdan
 // toExponent dersek 10 uzeri cinsten gelir tofixed dersek ayni ifadeyi stringe cevirir ve sadece iki basamagi alir
-//
+// ORNEK 2 ;dogum tarihini parametre olarak alan bir fonksiyon yazalim
+// ana programa yasi hesaplayip donduren programi dondurun yas hesapla
+// const tarih = Number (prompt("dogum tarihi hesapla"))
+// const yasHesapla = (tarih)=>{
+    // const yas = new Date().getFullYear() - tarih 
+    // return yas;
+
+//}
+// clg("yasiniz" + yasHesapla(tarih)) concat yqpiyoruz sonucu string olarak cikar clg ifadesini basa yazdigimizda burada arrow funcksiyon yonteminde
+// once declare etmek gerekir sonra kullanilir sonra cagriliyor ve kullaniliyor // once fonksiyon tanimlanmali
+// arrow f ve expr yontemlerinfe once fonks tanimlanmali sonra cagrilmali aksi takdirde hata alirim 
+// 1. yontemde hoisting ozelligi var diger iki yontem daha cok tercih edilmelidir 
+
+
+//// fibonacci ornegini klasik fonksiyonlarla yapilisi 
+// arrow da ifade sayisi arttikca suslu ve return kullaniyoruz
+//ornek; girilen n.terime kadar fibonacci sayilairnin toplamini hesaplayarak yazdiran fonksiyonu dongu ie kodlayiniz
+// fibonacci terimleri : 1, 1,2,3,5
+// f(n) = f(n-1)+f(n-2) herhangi bir terimi bulmak icin kendinden iki onceki terimi bulmam lazim f(6) = f(5)+f(4)
+// bu sekilde kenidni tekrar eden fonksiyonkara recursive yani kendi kendini cagiran fonksiyonlarin kullanilmasi gerekeblir recursive mantigi ile degilde 
+// dongulerle yapmak istesek bir algoritma gelistirmek gerekli 
+// const fibo = (n) =>{ 
+    // for (let i=2; i<n; i++){
+
+    // let fib1 = 1
+    // let fib2 =1;
+    //let toplam=0;
+
+    //}
+
+
+//}
+// const n = +prompt ("n terimini giriniz:")
+// if(n<=0){
+    // clg("lutfen sifirdan buyuks ayu");
+    //} else {
+        // clg(`fibo(${n})=${fibo(n)});
+    //}
+
+//}
+//clg(`fibo(${n})= ${fibo(n)}`);
+
+
+//// recursive fonksiyon yontemine bakalim 
+// recursive fonksiyonlar kendi kendini cagiran fonksiyondur bir fonksiyon kendi kendini declare ederken cagiriyorsa bu recursive dir 
+// ozellile karmasik matematiksel hesaplamalarin kodlanmasini kolaylastirmak icin kullanilir ancak dikkatli kullanmak gerekir yoksa stack overflow hatasi alinabilir
+//clg(recursuce) ornek 
+// const fibo =(n) => {
+    // fibo(n-1)
+
+
+//};
+// const n = +prompt("n terimini giriniz");
+// if (n<=0){
+    //clg ("lutfen bir sayi giriniz");
+
+//} else{
+    //clg(`fibo (${n})=${fibo(n)}`)
+
+//}
+//  bir fonksiyonda kendisini cagiriyorsak kosul olmak zorunda 
+// fibonacci kendi kendini cagiran bir fonksiyon 
