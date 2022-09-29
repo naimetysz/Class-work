@@ -7,3 +7,6 @@ h1.onmouseover = function (){
 h1.onmouseout = () => {
     h1.style.color = "blue"
 } // array formatinda yazimi
+h1.addEventListener("click",()=>{
+    alert("mutlu ol:)")
+})
