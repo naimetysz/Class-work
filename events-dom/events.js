@@ -21,8 +21,8 @@ document.getElementById("btn").addEventListener("click",function(){
 ///// macbook gibi buyume ornegi
 const list =document.querySelectorAll(".list")
 list.forEach((li)=>{
-    li.style.transition = "font-size 0.5s"
-    li.style.transform = "translateX(10px)"
+    li.style.transition = "font-size 0.5s";
+    li.style.transform = "translateX(-10px)";
     li.style.lineHeigth = "2rem"
     console.log(li);
     li.onmouseover =()=>{
@@ -33,3 +33,7 @@ list.forEach((li)=>{
         li.style.fontSize = "1rem";
     };
 })
+window.onload = function (){
+    document.querySelector("#input").focus();
+
+};
