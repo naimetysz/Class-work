@@ -1,9 +1,10 @@
 let isError = false;
 
 const getNews = async function () {
-  const API_KEY = "55e3f1fdc1c94581b6b11537c9b8f8bf";
+  const API_KEY = "2d47be1c32964035bd0d4627494dc66d";
   const url =
     "https://newsapi.org/v2/top-headlines?country=tr&apiKey=" + API_KEY;
+    
 
   try {
     const res = await fetch(url);
